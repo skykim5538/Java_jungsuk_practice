@@ -1,4 +1,4 @@
-# Java 학습 Q&A 정리 📚
+# Java 학습 Q&A 📚
 
 ## 🔄 Switch Expression & 완전성
 
