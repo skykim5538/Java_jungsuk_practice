@@ -1,0 +1,19 @@
+package ch5;
+
+public class Ex5_15 {
+
+    public static void main(String [] args){
+        String source ="SOSHELP";
+        String[] morse ={"1","2","3","4","5","6","7","8","9","10"
+        ,"11","12","13","14","15"
+        ,"16","17","18","19","20","21","22","23","24"};
+
+        String result ="";
+
+        for(int i=0;i<source.length();i++){
+            result += morse[source.charAt(i)-'A'];
+                    }
+        System.out.println("result="+result);
+        System.out.println("morse="+ morse);
+    }
+}
